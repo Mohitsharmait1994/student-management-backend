@@ -1,5 +1,7 @@
 const { body } = require('express-validator');
 
+
+// commits for staging branch
 exports.registerValidation = [
   body('name')
     .notEmpty().withMessage('Name is required.')
